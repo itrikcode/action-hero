@@ -1,17 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
 name: test app
-
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "Action" branch
   push:
     branches:
       -Action
-  pull_request:
-    branches: [ "Action" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+ # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch: 
 
  
